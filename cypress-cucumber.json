@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "https://nxcf-fe-hml2-natura-br.naturacloud.com/",
+    "experimentalSourceRewriting": true,
+    "nonGlobalStepDefinitions": true,
+    "cypress-cucumber-preprocessor": {
+      "step_definitions": "cypress/integration/features/step_definitions/**/"
+   },
+    "cucumberJson": {
+        "generate": "true",
+        "outputFolder": "cypress/cucumber-json",
+        "filePrefix": "",
+        "fileSuffix": ".cucumber"
+    },
+    "watchForFileChanges": false,
+    "testFiles": "**/*.{feature,features}",
+    "video": false
+  }
