@@ -1,5 +1,4 @@
 /// <reference types="cypress" />
-import { should } from 'chai';
 import { ELEMENTOS as elementos } from '../pages/components/_common.components'
 
 context('Login', () => {
