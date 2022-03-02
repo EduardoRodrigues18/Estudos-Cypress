@@ -30,6 +30,6 @@ When(/^salvar$/, () => {
 
 Then(/^devo ser cadastrado com sucesso$/, () => {
 	cy.wait(17000)
-    cy.url().should('not.have.a.property', 'cadastre-se')
+    cy.url().should('not.contain', 'cadastre-se')
 });
 

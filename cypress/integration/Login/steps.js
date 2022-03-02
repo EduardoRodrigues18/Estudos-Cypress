@@ -15,6 +15,7 @@ When(/^informar meus dados$/, () => {
 
 When(/^clicar em entrar$/, () => {
     cy.get(elementos.Login.BTNentrar).click()
+    cy.wait(5000)
 });
 
 Then(/^devo estar logado com sucesso$/, () => {
