@@ -19,7 +19,7 @@ export const ELEMENTOS = {
         INPemailLogin: 'input[name=login]',
         INPsenhaLogin: 'input[name=password]',
         BTNentrar: 'button[type=submit]',
-        MSGemailOuCpfInvalido: 'p[class="MuiTypography-root MuiTypography-body2"]',
+        MSGemailOuCpfInvalido: 'p[class*=colorError]',
         MSGsenhaobrigatoria: 'p[class*=colorError]'
     }
 }

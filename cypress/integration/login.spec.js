@@ -20,7 +20,7 @@ context('Login', () => {
             cy.get(elementos.aceitarCoockie).click()
             cy.get(elementos.Login.INPsenhaLogin).type(user.senha)
             cy.get(elementos.Login.BTNentrar).click()
-            cy.get(elementos.Login.MSGemailOuCpfInvalido).should('contain', 'Não conseguimos realizar seu login, por favor confirme seu login e senha.')
+            cy.get(elementos.Login.MSGemailOuCpfInvalido).should('contain', 'Este campo é obrigatório')
         });
     })
     it('login com campo "senha" vazio',()=>{

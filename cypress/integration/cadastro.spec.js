@@ -23,7 +23,7 @@ context('Cadastrar com sucesso', () => {
         cy.get(elementos.Cadastro.BTNcriarConta).click()
         cy.writeFile('./cypress/fixtures/example.json', {Email: email, senha: '12345@Edu'})
         cy.wait(17000)
-        cy.url().should('not.have.a.property', 'cadastre-se')
+        cy.url().should('not.contain', 'cadastre-se')
 
     });
 });
