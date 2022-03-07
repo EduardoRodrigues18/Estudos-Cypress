@@ -11,6 +11,7 @@ context('Login', () => {
             cy.get(elementos.Login.INPemailLogin).type(user.Email)
             cy.get(elementos.Login.INPsenhaLogin).type(user.senha)
             cy.get(elementos.Login.BTNentrar).click()
+            cy.wait(5000)
             cy.url().should('not.contain', 'login')
         });
     })
