@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Como usuário desejo realizar login\n    Para acessar o site",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login;realizar-login-com-sucesso",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Realizar Login com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que acesso a página de login",
+            "result": {
+              "status": "passed",
+              "duration": 62590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "informar meus dados",
+            "result": {
+              "status": "passed",
+              "duration": 2591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clicar em entrar",
+            "result": {
+              "status": "passed",
+              "duration": 6070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "devo estar logado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

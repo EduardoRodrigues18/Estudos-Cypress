@@ -22,4 +22,5 @@ export const ELEMENTOS = {
         MSGemailOuCpfInvalido: 'p[class*=colorError]',
         MSGsenhaobrigatoria: 'p[class*=colorError]'
     }
+    
 }
