@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
-import { ELEMENTOS as elementos } from '../pages/components/_common.components'
-import {NaturaLogin} from '../pages/login.page'
+import { ELEMENTOS as elementos } from '../../pages/components/_common.components'
+import {NaturaLogin} from '../../pages/login.page'
 
 context('Login', () => {
     beforeEach(() => {
